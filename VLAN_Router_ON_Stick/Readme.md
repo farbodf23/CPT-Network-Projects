@@ -74,8 +74,8 @@ Switch(config-if)# switchport trunk allowed vlan 10,20
 Switch(config-if)# end
 
 Switch# write memory
----
-
+```
+##
 ## Block 4: Router Configuration
 
 ```markdown
@@ -107,7 +107,7 @@ Router(config-subif)# no shutdown
 Router(config-subif)# end
 
 Router# write memory
----
+```
 
 ## Block 5: PC Configuration
 
